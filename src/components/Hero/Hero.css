@@ -1,0 +1,71 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    background: linear-gradient(90deg, rgba(236, 89, 87, 1) 4%, rgba(233, 235, 27, 1) 49%, rgba(255, 149, 0, 1) 97%);
+    background: linear-gradient(90deg, rgba(152, 215, 245, 1) 4%, rgba(5, 174, 184, 0.8379726890756303) 49%, rgba(0, 105, 145, 1) 97%);
+    background: rgb(235, 233, 105);
+    background: linear-gradient(90deg, rgba(235, 233, 105, 1) 0%, rgba(249, 184, 52, 1) 100%);
+    display: flex;
+}
+
+.hero-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 180px;
+    line-height: 1.1;
+    background: white;
+    border-radius: 0 20px 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 10px 54px 55px, 
+            rgba(0, 0, 0, 0.12) 10px -12px 30px, 
+            rgba(0, 0, 0, 0.12) 10px 4px 6px, 
+            rgba(0, 0, 0, 0.17) 10px 12px 13px;
+
+}
+
+.hero-left h2 {
+    color: #090909;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.hero-hand-icon {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-hand-icon img {
+    width: 105px;
+}
+
+.hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 305px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: 30px;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
